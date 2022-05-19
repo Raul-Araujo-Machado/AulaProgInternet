@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+img {
+    border-radius: 50%;
+    border: 7px solid white;
+    
+}
+.coluna {
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    height: 300px;
+    text-align: center; 
+
+}
+
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+section{
+    margin-top: 400px;
+    background-color: coral ;
+    height: 61vh;
+}
+div{
+    margin: 0;
+    padding: 0;
+    margin-top: -180px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+div.barrinha{
+    padding: 0;
+    margin: 10px;
+    border: 2px solid white;
+}
+footer{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}

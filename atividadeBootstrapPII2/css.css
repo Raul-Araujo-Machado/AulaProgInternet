@@ -1,0 +1,51 @@
+
+img {
+    border-radius: 50%;
+    border: 7px solid white !important;
+    
+}
+
+.container-fluid{
+    background-color: coral;
+    margin-top: 100px;
+   
+}
+.container{
+    background-color: coral;
+    color: white;
+}
+#branco{
+    background-color: white;
+
+}
+.col-sm-3{
+    margin-top: -80px;
+    padding-bottom: 113px;
+}
+.col-sm-1{
+    margin-top: -80px;
+    padding-bottom: 113px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+    
+}
+a:hover{
+    text-decoration: underline !important;
+}
+div.barrinha{
+    padding: 0;
+    margin: 10px;
+    border: 2px solid white;
+}
+footer{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
